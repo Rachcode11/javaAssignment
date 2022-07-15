@@ -1,10 +1,13 @@
-import Product.Product;
+package javaAssignment;
+
+import newfile.Product;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-    public class CashReceipt {
+public class CashRecepit {
+
         private static final Scanner input = new Scanner(System.in);
         private static String customerName;
         private static String purchaseItem;
@@ -147,4 +150,6 @@ import java.util.Scanner;
             System.out.println("\t\t\t\t\t Bill Total : \t\t"+getBillTotal(subTotal,discount, getVat(subTotal)));
         }
     }
+
+
 

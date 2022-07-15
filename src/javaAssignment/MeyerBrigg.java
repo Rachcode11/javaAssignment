@@ -1,6 +1,9 @@
-import java.sql.SQLOutput;
+package javaAssignment;
+
 import java.util.Scanner;
-public class MeyerBrigg {
+
+public class MeyerBrigg { ;
+
 
         static Scanner scanner = new Scanner(System.in);
         static String userInput;
@@ -326,13 +329,9 @@ public class MeyerBrigg {
 
 
 
+
+
         }
+    }
 
 
-
-
-
-
-
-
-}

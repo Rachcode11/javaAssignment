@@ -1,12 +1,13 @@
-public class SevenSegment {
+package javaAssignment;
 
+public class SevenSegment {
     static String [][] sevenSegment = new String[5][4];
 
     private static void setA(){
-      sevenSegment[0][0] = "# ";
-      sevenSegment[0][1] = "# ";
-      sevenSegment[0][2] = "# ";
-      sevenSegment[0][3] = "# ";
+        sevenSegment[0][0] = "# ";
+        sevenSegment[0][1] = "# ";
+        sevenSegment[0][2] = "# ";
+        sevenSegment[0][3] = "# ";
     }
 
     private static void setB(){
@@ -88,3 +89,5 @@ public class SevenSegment {
         }
     }
 }
+
+
